@@ -12,7 +12,7 @@
             Enter Role: <input type="text" name="roles"> <input type="submit" value="Get">
         </form>
 
-        <form action="getUserHashtags.php" method="get">
+        <form action="getUserHashTags.php" method="get">
             Enter Hashtags: <input type="text" name="hashtags"> <input type="submit" value="Get">
         </form>
 
