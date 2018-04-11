@@ -1,0 +1,80 @@
+<html>
+<title>
+	
+</title>
+<head>
+	
+</head>
+<body >
+	<table border=1 height=70% width=70%>
+		<tr>
+			<td width=20%>
+				<h2>Title</h2>
+			</td>
+			<td>
+				Update User Status API
+			</td>
+		</tr>
+			<tr>
+			<td width=20%>
+				<h2>Function</h2>
+			</td>
+			<td>
+				To update status column of a user.
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>Url</h2>
+			</td>
+			<td>
+				/updateStatus.php
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>Method</h2>
+			</td>
+			<td>
+				POST
+			</td>
+		</tr>
+		<tr>
+		<td width=20%>
+				<h2>Data params</h2>
+			</td>
+			<td>
+     	[       {
+        "Emailid": "shah.30haard@gmail.com",<br>
+        "Status": "New",<br>
+        "HashTags": "intern",<br>
+        "Roles": "Mentee",<br>
+        "TechnologyRatings": "2",<br>
+        "PeopleRatings": "3",<br>
+        "is_deleted": null,<br>
+        "deletedData": null
+    	}]
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>SUCCESS Response</h2>
+			</td>
+			<td>
+				Succesfully updated
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>ERROR Respnse</h2>
+			</td>
+			<td>
+				IF INVALID EMAIL:"cannot be updated check emailid"<br>
+	        http_response_code(200)<br>
+    	   http_response_code(405)
+			</td>
+		</tr>
+	
+	</table>
+</body>
+</html>

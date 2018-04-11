@@ -1,0 +1,72 @@
+<html>
+<title>
+	
+</title>
+<head>
+	
+</head>
+<body >
+	<table border=1 height=70% width=70%>
+		<tr>
+			<td width=20%>
+				<h2>Title</h2>
+			</td>
+			<td>
+				Get User Status API
+			</td>
+		</tr>
+			<tr>
+			<td width=20%>
+				<h2>Function</h2>
+			</td>
+			<td>
+				To get information of a user from its status
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>Url</h2>
+			</td>
+			<td>
+				/getUserStatus.php?status=:status
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>Method</h2>
+			</td>
+			<td>
+				GET
+			</td>
+		</tr>
+		<tr>
+		<td width=20%>
+				<h2>Url params</h2>
+			</td>
+			<td>
+				Required: <br>
+				status=['active','Inactive','Delete','New']<br> 
+				example: status=new
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>SUCCESS Response</h2>
+
+			</td>
+			<td>
+				[{"Emailid":"guptasamanta@yahoo.com","Status":"New","HashTags":null,"Roles":null,"TechnologyRatings":null,"PeopleRatings":null,"is_deleted":null,"deletedData":null}]
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>ERROR Respnse</h2>
+			</td>
+			<td>
+				Invalid Status
+			</td>
+		</tr>
+	
+	</table>
+</body>
+</html>

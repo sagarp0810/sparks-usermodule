@@ -1,0 +1,78 @@
+<html>
+<title>
+	
+</title>
+<head>
+	
+</head>
+<body >
+	<table border=1 height=70% width=70%>
+		<tr>
+			<td width=20%>
+				<h2>Title</h2>
+			</td>
+			<td>
+				Bulk Update user API
+			</td>
+		</tr>
+			<tr>
+			<td width=20%>
+				<h2>Function</h2>
+			</td>
+			<td>
+				To update multiple columns of a user.
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>Url</h2>
+			</td>
+			<td>
+				/bulkUpdateUser.php
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>Method</h2>
+			</td>
+			<td>
+				POST
+			</td>
+		</tr>
+		<tr>
+		<td width=20%>
+				<h2>Data params</h2>
+			</td>
+			<td>
+     	[ {
+        "email": "shah.30haard@gmail.com",<br>
+        "status": "New",<br>
+        "hashtags": "intern",<br>
+        "roles": "Mentee",<br>
+        "techRating": "2",<br>
+        "peopleRating": "3",<br>
+    		}]
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>SUCCESS Response</h2>
+			</td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>ERROR Respnse</h2>
+			</td>
+			<td>
+				IF INVALID EMAIL:"cannot be updated check emailid"<br>
+	        http_response_code(200)<br>
+    	   http_response_code(405)<br>
+			</td>
+		</tr>
+	
+	</table>
+</body>
+</html>

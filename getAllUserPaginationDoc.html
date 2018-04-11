@@ -1,0 +1,74 @@
+<html>
+<title>
+	
+</title>
+<head>
+	
+</head>
+<body >
+	<table border=1 height=70% width=70%>
+		<tr>
+			<td width=20%>
+				<h2>Title</h2>
+			</td>
+			<td>
+				Get User Pagination API
+			</td>
+		</tr>
+			<tr>
+			<td width=20%>
+				<h2>Function</h2>
+			</td>
+			<td>
+				To get information of a users of a number of users from a particular page.
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>Url</h2>
+			</td>
+			<td>
+				/getAllUserPagination.php?pageNumber=:pageNumber&pageSize=:pageSize
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>Method</h2>
+			</td>
+			<td>
+				GET
+			</td>
+		</tr>
+		<tr>
+		<td width=20%>
+				<h2>Url params</h2>
+			</td>
+			<td>
+				Required: <br>
+			pageNumber=[Integer]
+			pageSize=[Integer]
+			example
+			pageNumber=1
+			pageSize=2
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>SUCCESS Response</h2>
+			</td>
+			<td>
+				[{"Emailid":"adisaps8@gmail.com","Status":"Inactive","HashTags":"hired","Roles":"Mentor","TechnologyRatings":"2","PeopleRatings":"1","is_deleted":null,"deletedData":null},{"Emailid":"guptasamanta@yahoo.com","Status":"New","HashTags":null,"Roles":null,"TechnologyRatings":null,"PeopleRatings":null,"is_deleted":null,"deletedData":null}]
+			</td>
+		</tr>
+		<tr>
+			<td width=20%>
+				<h2>ERROR Respnse</h2>
+			</td>
+			<td>
+				Invalid Input.Please Enter Numeric data greater than 0's
+			</td>
+		</tr>
+	
+	</table>
+</body>
+</html>
